@@ -104,3 +104,13 @@ let discount = 17;
 
 let discountedPrice = applyDiscount(originalPrice, discount);
 console.log(`The price after a ${discount}% discount is $${discountedPrice}`);
+
+
+//Task 10: Arrow Functions
+
+const calculatePoints = purchaseAmount => Math.floor (purchaseAmount/ 10);
+
+let purchaseAmount = 199;
+
+let points = calculatePoints(purchaseAmount);
+console.log(`For a purchase of $${purchaseAmount}, you earned ${points} loyalty points.`);
