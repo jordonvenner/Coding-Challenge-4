@@ -68,3 +68,12 @@ let products = ["Laptop", "Mouse","Keyboard"];
 for (let product of products) {
     console.log(`Product: ${product}`);
 };
+
+
+//"Task 7 - Order Processing."
+
+let orders = [121, 123, 125];
+
+orders.forEach(order => {
+    console.log(`processing order ID: ${order}`);
+});
