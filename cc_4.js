@@ -45,3 +45,16 @@ do {
 } while (respones < 3);
 
 console.log("Survey complete. Thank you for your responses!");
+
+
+//Task 5: For...In Loop
+
+let employee = {
+    name: "Alice",
+    position: "Manager",
+    salary: 75000
+};
+
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`);
+};
