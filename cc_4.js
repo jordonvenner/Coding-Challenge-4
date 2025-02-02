@@ -21,3 +21,15 @@ for (let i = 0 < sales.length; i++) {
 }
 
 console.log(`Total sales: $${tatalSales}`);
+
+
+//Task 3: While Loop
+
+let stock = 10;
+
+while (stock > 0) {
+    console.log(`Stock remaining ${stock}`);
+    stock--;
+}
+
+console.log("Stock is depleted!");
